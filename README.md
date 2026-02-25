@@ -7,7 +7,8 @@
     <!-- Imports Tailwind CSS for styling -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Imports the Lucide icon library -->
-    <!-- Replaced deprecated 'lucide-icons' with the correct 'lucide' UMD script -->helmet="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <!-- Replaced deprecated 'lucide-icons' with the correct 'lucide' UMD script -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
     <style>
         /* Custom styles */
         body {
@@ -40,7 +41,7 @@
         <!-- Prompt Input Area -->
         <div class="mb-4">
             <label for="prompt-input" class="block text-sm font-medium text-gray-700 mb-2">Image Prompt:</label>
-            <textarea id="prompt-input" rows="3" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-shadow" placeholder="e.g., A red panda wearing a small astronaut helmet..."A golden retriever.</textarea>
+            <textarea id="prompt-input" rows="3" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-shadow" placeholder="e.g., A red panda wearing a small astronaut helmet...">A sleek, modern logo for a 'Key System', futuristic, digital, on a dark background.</textarea>
         </div>
 
         <!-- Generate Button -->
